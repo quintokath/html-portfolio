@@ -1,17 +1,15 @@
-Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+index.html
 
-From line 21, column 9; to line 21, column 72
+Trailing Slash on Void Elements:
 
->↩        <img src="assets/1.jpg" alt="Portrait of John Doe" width="300"/>↩   
+Fixed all void elements like <img> and <meta> by removing the trailing slash.
 
-Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+Reason: In HTML5, the trailing slash is optional for void elements, and removing it is the recommended practice for cleaner code and better compatibility.
 
-From line 5, column 3; to line 5, column 72
+contact.html
 
-f-8" />↩  <meta name="viewport" content="width=device-width, initial-scale=1" />↩  <ti
+Trailing Slash on Void Elements:
 
-Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+Fixed all void elements like <img> and <meta> by removing the trailing slash.
 
-From line 4, column 3; to line 4, column 26
-
-↩<head>↩  <meta charset="utf-8" />↩  <me
+Reason: In HTML5, the trailing slash is optional for void elements, and removing it is the recommended practice for cleaner code and better compatibility.
